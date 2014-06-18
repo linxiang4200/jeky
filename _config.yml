@@ -1,0 +1,13 @@
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "my-site"
+  -
+    scope:
+      path: "about/blog"
+      type: "post"
+    values:
+      layout: "meta-blog" # overrides previous default layout
+      author: "Dr. Hyde"
